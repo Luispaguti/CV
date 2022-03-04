@@ -1,0 +1,82 @@
+
+.todo {
+    font-family:'Cairo';
+}
+
+
+header.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    word-spacing: 0.50em;
+}
+
+
+h1 {
+    font-size:3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    margin-top: 5rem;
+}
+
+h2.profesion {
+    font-size:1rem;
+    text-transform: uppercase ;
+    text-align: center;
+    border-style:ridge;
+    border-right: none;
+    border-left: none;
+    border-spacing: 10rem;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    margin-left: 10rem ;
+
+}
+
+.primero{
+    width: 25%;
+    margin-right: 5rem;
+}
+
+.segundo{
+    width: 75%;
+}
+
+
+ul{
+    list-style-type:none;
+}
+    
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 8px;
+    padding-bottom: 30px;;
+}
+
+
+
+.letra{
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.telefono{
+    list-style-type:circle;
+}
